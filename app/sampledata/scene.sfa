@@ -1,0 +1,168 @@
+{
+  materials: [
+    {
+      name: 'BABY_YODA',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'BABY_YODA_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'BABY_YODA_normal',
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'BABY_YODA_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'BABY_YODA_EYES',
+      parameters: [
+        {
+          baseColorFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          baseColor: null,
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: null,
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 0.077272999999999994,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+    scale: 0.15,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\textures\\BABY_YODA_baseColor.png',
+      name: 'BABY_YODA_baseColor',
+      pipeline_name: 'textures/BABY_YODA_baseColor.png',
+    },
+    {
+      file: 'sampledata\\textures\\BABY_YODA_normal.png',
+      name: 'BABY_YODA_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/BABY_YODA_normal.png',
+    },
+    {
+      file: 'sampledata\\textures\\BABY_YODA_metallicRoughness.png',
+      name: 'BABY_YODA_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/BABY_YODA_metallicRoughness.png',
+    },
+  ],
+  version: '0.54:2',
+}
